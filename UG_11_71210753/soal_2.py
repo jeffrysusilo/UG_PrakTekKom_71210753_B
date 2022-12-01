@@ -1,4 +1,4 @@
-def is_palindrome(w):
+def fun_palindrome(w):
   rw = str(w)[::-1]
   print('jika dibalik: ',rw)
   if str(w) == rw:
@@ -9,5 +9,5 @@ def is_palindrome(w):
     return y
 
 inputan=(str(input('masukan kata: ')))
-print(is_palindrome(inputan))
+print(fun_palindrome(inputan))
 
